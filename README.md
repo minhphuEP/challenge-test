@@ -78,7 +78,7 @@ A robust **Playwright + TypeScript** E2E automation framework for web apps, supp
 ### 2. Clone & Install
 
 ```bash
-git clone <https://github.com/minhphuEP/challenge-test>
+git clone https://github.com/minhphuEP/challenge-test
 cd challenge‑test
 npm install
 ```
