@@ -43,6 +43,28 @@ A robust **Playwright + TypeScript** E2E automation framework for web apps, supp
 | **UAT**         | User Acceptance Testing      |
 
 ---
+## Framework Structure
+.
+├── .env                        # env vars 
+├── package.json                # Scripts, deps & devDeps
+├── playwright.config.ts        # Global Playwright settings
+├── .gitignore
+├── tsconfig.json               # TypeScript compiler config
+├── utils/
+│   └── config.ts               # Single source of truth for all config/env
+├── tests/
+│   ├── data/
+│   │   ├── testLoginData.ts    # All login scenarios (data‑driven)
+│   │   └── testSearchData.ts   # All search scenarios (data‑driven)
+│   ├── ui/pages/
+│   │   ├── LoginPage.ts        # Page‑Object for the login screen
+│   │   └── DashboardPage.ts    # Page‑Object for Admin → User Management
+│   └── ui/specs/
+│       ├── login.spec.ts       # Data‑driven login tests
+│       └── search.spec.ts      # Data‑driven search tests
+└── .github/
+    └── workflows/
+        └── playwright.yml      # CI pipeline for GitHub Actions
 
 ## Getting Started
 
