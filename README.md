@@ -44,6 +44,8 @@ A robust **Playwright + TypeScript** E2E automation framework for web apps, supp
 
 ---
 ## Framework Structure
+
+```bash
 .
 ├── .env                        # env vars 
 ├── package.json                # Scripts, deps & devDeps
@@ -65,6 +67,7 @@ A robust **Playwright + TypeScript** E2E automation framework for web apps, supp
 └── .github/
     └── workflows/
         └── playwright.yml      # CI pipeline for GitHub Actions
+```
 
 ## Getting Started
 
